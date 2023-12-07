@@ -27,7 +27,7 @@ const Cart = () => {
             { 
             carrito.length > 0 ?
             <>
-                <h2>Precio total: $ {precioTotal()}</h2>
+                <h2>Precio total: $ {precioTotal()} USD</h2>
                 <button onClick={handleVaciar}>Vaciar carrito</button>     
             </> :
             <h2>El carrito esta vacío D:</h2>
