@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import { Link } from "react-router-dom"
 import { CartContext } from "../../context/CartContext"
+import * as Icon from 'react-bootstrap-icons'
 
 const CartWidget = () => {
 
@@ -9,7 +10,7 @@ const CartWidget = () => {
     return (
         <div>
             <Link className="menu-link" to="/cart">
-                Carrito
+                <Icon.Cart />
                 <span className="numerito"> {cantidadEnCarrito()}</span>
                 </Link>
         </div>
