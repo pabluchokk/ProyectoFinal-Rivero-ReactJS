@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
-import { pedirDatos } from "../helpers/pedirDatos"
-import ItemList from "./ItemList"
+import { pedirDatos } from "../../helpers/pedirDatos"
+import ItemList from "../ItemList/ItemList"
 import { useParams } from "react-router-dom"
 
 const ItemListContainer = () => {
